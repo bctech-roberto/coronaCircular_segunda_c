@@ -1,4 +1,7 @@
 print("Cornoa cicular")
 radio_mayor = float(input("radio mayor: "))
 radio_menor = float(input("radio menor: "))
-area = 3.14(radio_mayor**2 - radio_menor**2)
+area = 3.14*(radio_mayor**2 - radio_menor**2)
+print()
+print("resultaos")
+print("Area ; ",area.__round__(2))
