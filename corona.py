@@ -12,7 +12,16 @@ while(True):
     print("Area ; ",area.__round__(2))
     print("Peru : ",peri.__round__(2))
     print()
-    op = int(input("deseac continuar SI=1/NO=0: "))
+    while(True):
+        try:
+            op = int(input("deseac continuar SI=1/NO=0: "))
+            if(op==0 or op==1):
+                break
+            else:
+                print("solo ingresa 1 o 0")
+        except:
+            print("no letras")
     if(op==0):
         break
+print("Ud a teminado el sistem")
 print("Vsitanos en www.bctech.com")
