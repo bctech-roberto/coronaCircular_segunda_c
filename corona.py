@@ -1,4 +1,4 @@
-
+print("Hecho por RObertito BC")
 print("=====================")
 print("Cornoa cicular")
 print("======================")
@@ -10,3 +10,5 @@ print()
 print("resultaos")
 print("Area ; ",area.__round__(2))
 print("Peru : ",peri.__round__(2))
+print()
+print("Vsitanos en www.bctech.com")
