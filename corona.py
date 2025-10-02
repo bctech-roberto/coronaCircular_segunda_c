@@ -1,3 +1,6 @@
+"""
+Desarrollador: BCTECH
+"""
 while(True):
     print("Hecho por RObertito BC")
     print("=====================")
@@ -40,5 +43,7 @@ while(True):
             print("no letras")
     if(op==0):
         break
+print("=================================")
 print("Ud a teminado el sistem")
 print("Vsitanos en www.bctech.com")
+print("=================================")
