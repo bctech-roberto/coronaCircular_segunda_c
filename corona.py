@@ -3,8 +3,25 @@ while(True):
     print("=====================")
     print("Cornoa cicular")
     print("======================")
-    radio_mayor = float(input("radio mayor: "))
-    radio_menor = float(input("radio menor: "))
+    while(True):
+        try:
+            radio_mayor = float(input("radio mayor: "))
+            if(radio_mayor>0):
+                break
+            else:
+                print("radio debe ser siempre positivo")
+        except:
+            print("No letras")
+    while(True):
+        try:
+            radio_menor = float(input("radio menor: "))
+            if(radio_mayor>0):
+                break
+            else:
+                print("radio debe ser siempre positivo")
+        except:
+            print("No letras")
+    
     area = 3.14*(radio_mayor**2 - radio_menor**2)
     peri = 2*3.14*(radio_mayor + radio_menor)
     print()
